@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  alpine-dns:
+    image: 'canarysat/alpine-dns:stable'
+    network_mode: bridge
+    container_name: 'alpine-dns'
+    restart: always
+
+    ports:
+      - 53:53/udp
+
+    volumes:
+      - '$PWD/bindconfig:/etc/bind'
+      - '$PWD/logs/named:/var/log/named'
