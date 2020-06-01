@@ -5,7 +5,7 @@
 This docker image provides a [bind service](https://www.isc.org/downloads/bind/) based on [Alpine Linux](https://hub.docker.com/_/alpine/).
 
 [![](https://img.shields.io/docker/pulls/canarysat/alpine-dns)](https://img.shields.io/docker/pulls/canarysat/alpine-dns)
-[![](https://img.shields.io/docker/image-size/canarysat/alpine-dns?style=plastic)](https://img.shields.io/docker/image-size/canarysat/alpine-dns?style=plastic)
+[![](https://img.shields.io/docker/image-size/canarysat/alpine-dns)](https://img.shields.io/docker/image-size/canarysat/alpine-dns)
 
 
 ## Usage
