@@ -4,7 +4,9 @@
 
 This docker image provides a [bind service](https://www.isc.org/downloads/bind/) based on [Alpine Linux](https://hub.docker.com/_/alpine/).
 
-[![](https://images.microbadger.com/badges/image/pstauffer/bind.svg)](https://microbadger.com/images/pstauffer/bind)
+[![](https://img.shields.io/docker/pulls/canarysat/alpine-dns)] (https://img.shields.io/docker/pulls/canarysat/alpine-dns)
+[![](https://img.shields.io/docker/image-size/canarysat/alpine-dns?style=plastic)](https://img.shields.io/docker/image-size/canarysat/alpine-dns?style=plastic)
+
 
 ## Usage
 
@@ -115,7 +117,7 @@ chown 1000:101 <bindconfig>/*
 
 ## Bind Sample Configuration
 
-A working bind configuration is provided in the [git repo](https://raw.githubusercontent.com/canarysat/alpine-dns/master/bindconfig).
+A working bind configuration is provided in the [git repo](https://github.com/canarysat/alpine-dns/tree/master/bindconfig).
 Just mount this example folder into the docker container and you're bind should work.
 
 ## Bind Test
