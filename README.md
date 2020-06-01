@@ -24,7 +24,7 @@ docker run -d --name bind --publish 53:53/udp \
 
 ### docker-compose
 
-Check out the `docker-compose.yml` file in the [git repo](https://raw.githubusercontent.com/canarysat/alpine-dns/master/docker-compose.yml).
+Check out the `docker-compose.yml` file in the [git repo](https://raw.githubusercontent.com/canarysat/alpine-bind/master/docker-compose.yml).
 ```
 version: '3'
 
@@ -115,7 +115,7 @@ chown 1000:101 <bindconfig>/*
 
 ## Bind Sample Configuration
 
-A working bind configuration is provided in the [git repo](https://github.com/canarysat/alpine-dns/tree/master/bindconfig).
+A working bind configuration is provided in the [git repo](https://raw.githubusercontent.com/canarysat/alpine-bind/master/bindconfig).
 Just mount this example folder into the docker container and you're bind should work.
 
 ## Bind Test
