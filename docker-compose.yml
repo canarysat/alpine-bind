@@ -3,7 +3,7 @@ version: '3'
 services:
 
   alpine-dns:
-    image: 'canarysat/alpine-dns:stable'
+    image: 'canarysat/alpine-dns:latest'
     network_mode: bridge
     container_name: 'alpine-dns'
     restart: always
